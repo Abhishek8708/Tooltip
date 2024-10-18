@@ -1,0 +1,24 @@
+.app-container {
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    height: 100vh;
+
+    .tooltip-button {
+        padding: 12px 24px;
+        background-color: #4CAF50;
+        color: white;
+        font-size: 16px;
+        border: none;
+        border-radius: 6px;
+        cursor: pointer;
+      }
+      
+      .tooltip-button:hover {
+        background-color: #367b39;
+      }
+      
+      .tooltip-button:focus {
+        outline: 5px solid #215c27;
+      }
+}

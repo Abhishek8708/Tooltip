@@ -1,0 +1,26 @@
+.tooltip-container {
+    position: relative;
+      
+    .tooltip-content {
+        position: absolute;
+        background-color: #e6e6e6;
+        color: black;
+        padding: 8px;
+        border-radius: 4px;
+        left: 50%;
+        bottom: 125%;
+        transform: translateX(-50%);
+        width: 100%;
+        display: flex;
+        align-items: flex-start;
+        justify-content: space-between;
+        
+        .close-tooltip {
+            background: none;
+            border: none;
+            color: red;
+            cursor: pointer;
+            margin-left: 10px;
+        }
+    }
+}
